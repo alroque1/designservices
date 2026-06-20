@@ -320,7 +320,7 @@ label span:after {
 
 /* The Base Footer Background */
 footer {
-    background-color: var(--primary-blue);
+    background-color: var(--neutral-white);
     border-top: 4px solid var(--secondary-blue);
     padding: 3rem 0;
 }
@@ -373,7 +373,7 @@ footer {
     font-size: 1rem;
     letter-spacing: 1px;
     margin: 0px 20px;
-    border-bottom: 1px solid var(--primary-blue);
+    border-bottom: 1px solid var(--neutral-white);
     width: fit-content;
     margin-left: auto; 
 }
