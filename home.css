@@ -213,7 +213,7 @@ header {
 
 .navigation li:hover, .navigation a:hover {
     color: var(--primary-blue);
-    background-color: var(--neutral-white);
+    background-color: var(--secondary-orange);
     }
 
 #hamburger {
