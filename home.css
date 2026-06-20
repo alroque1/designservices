@@ -550,7 +550,8 @@ header {
 
 .navigation a:hover {
     background-color: var(--secondary-orange);
-    color: var(--neutral-white)
+    color: var(--neutral-white);
+    border-radius: 20px;
 }
 
 #hamburger {
