@@ -549,7 +549,7 @@ header {
 }
 
 .navigation a:hover {
-    background-color: var(--neutral-white);
+    background-color: var(--secondary-orange);
     color: var(--secondary-blue)
 }
 
