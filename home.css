@@ -550,7 +550,7 @@ header {
 
 .navigation a:hover {
     background-color: var(--secondary-orange);
-    color: var(--secondary-blue)
+    color: var(--neutral-white)
 }
 
 #hamburger {
