@@ -552,6 +552,7 @@ header {
     background-color: var(--secondary-orange);
     color: var(--neutral-white);
     border-radius: 20px;
+    transition: border-radius 0.3s ease; 
 }
 
 #hamburger {
