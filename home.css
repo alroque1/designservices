@@ -127,6 +127,186 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    text-align: center;
+    font-family: var(--font-body);
+    color: var(--bone);
+}
+
+ .container {
+    margin: 0 auto;
+    line-height: 1.5;
+    }
+
+
+header {
+     background-color: var(--obsidian);
+     border-bottom: 1px solid var(--muted-gold);
+    } 
+
+                
+.title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+    }
+                
+.logo-and-title {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    flex-shrink: 0;
+    }
+                
+.logo-and-title h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--muted-gold);
+    letter-spacing: 2px;
+    }
+                
+.logo-and-title img {
+    height: 100px;      
+    width: auto;       
+    display: block;
+    max-width: 100%;  
+    }
+
+.navigation {
+    justify-self: end;
+    position: relative;
+    text-align: left;
+    font-size: 16pt;
+    font-family: var(--font-header);
+    color: var(--text-bone);
+}
+
+.navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    }
+
+.navigation li {
+    list-style: none;
+    padding: 5px 20px;
+    }
+
+.navigation a, .navigation a:visited, .navigation a:active {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: var(--bone);
+    transition: background-color 0.5s;
+    }
+
+.navigation li:hover, .navigation a:hover {
+    color: var(--obsidian);
+    background-color: var(--ember);
+    }
+
+#hamburger {
+    display: none;
+}
+
+.navigation label {
+    position: absolute; 
+    top: -20px;
+    right: 0;
+    margin-right: 10px;
+    order: 2;
+    z-index: 101;
+    cursor: pointer;
+    display: flex;      
+    align-items: center;  
+    width: 40px; 
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent; 
+    }
+
+.navigation a {
+    text-align: center;
+    }
+
+.dropdown-nav {
+    display: none;
+    flex-direction: column;
+    position: fixed; 
+    left: 0;
+    width: 100%; 
+    top: 131px;
+    background-color: var(--smoke-violet);
+    padding: 20px 0;
+    z-index: 101;
+    box-sizing: border-box;
+    }
+
+    .dropdown-nav a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: var(--bone);
+    text-align: center;
+    }
+
+#hamburger:checked ~ .dropdown-nav {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    background-color: var(--obsidian);
+    }
+
+label span {
+    background-color: var(--muted-gold);
+    display: block;
+    height: .25rem;
+    position: relative;
+    transition: background-color .3s ease-out;
+    width: 2rem;
+    }
+
+label span:before, label span:after {
+    background: var(--muted-gold);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    }
+
+label span:before {
+    top: .75rem;
+    left: 0;
+    }
+
+label span:after {
+    top: -.75rem;
+    left: 0;
+    }
+
+
+/* ---------HAMBURGER "X" ANIMATION ---------*/
+
+#hamburger:checked ~ label span {
+    background-color: transparent; 
+}
+
+#hamburger:checked ~ label span:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+#hamburger:checked ~ label span:after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
 /* ==================================================
                     HEADER CONTENT SECTIONS
 ================================================== */
