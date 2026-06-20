@@ -328,7 +328,7 @@ footer {
 
 /* LEFT SIDE */
 .footer-left img {
-    width: 55px; 
+    width: 100px; 
     height: auto;
     display: block;
 }
@@ -486,7 +486,7 @@ header {
     }
 
     .footer-left img {
-        width: 125px; 
+        width: 170px; 
         height: auto;
         display: block;
     }
