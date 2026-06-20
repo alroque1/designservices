@@ -207,7 +207,7 @@ header {
     display: block;
     padding: 10px 30px;
     text-decoration: none;
-    color: var(--neutral-skyblue);
+    color: var(--secondary-blue);
     transition: background-color 0.5s;
     }
 
@@ -550,7 +550,7 @@ header {
 
 .navigation a:hover {
     background-color: var(--neutral-white);
-    color: var(--primary-blue)
+    color: var(--secondary-blue)
 }
 
 #hamburger {
