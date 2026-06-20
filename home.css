@@ -84,8 +84,14 @@ table {
 
 
 /*----------FONTS----------*/
-    --font-header: CherryBlossoms regular;
-    --font-body: ;
+    /* Title, main header - Cherry Blossoms regular */
+  --font-header: "cherry-blossoms-regular", sans-serif;
+  
+  /* Sub-headers - Sirenia regular */
+  --font-subheader: "sirenia", sans-serif;
+  
+  /* body, p, nav - Quicksand regular */
+  --font-body: "quicksand", sans-serif;
 
 }
 
