@@ -307,6 +307,76 @@ label span:after {
     transform: rotate(-45deg);
 }
 
+
+/*----------FOOTER----------*/
+
+/* The Base Footer Background */
+footer {
+    background-color: var(--obsidian);
+    border-top: 4px solid var(--oxblood);
+    padding: 3rem 0;
+}
+
+/* The 3-Column Layout */
+.footer-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+    gap: 1rem;
+}
+
+/* LEFT SIDE */
+.footer-left img {
+    width: 55px; 
+    height: auto;
+    display: block;
+}
+
+/* CENTER SIDE */
+.footer-center img {
+    width: 190px;
+    height: auto;
+    display: block;
+}
+
+/* RIGHT SIDE */
+.footer-right {
+    text-align: right;
+    font-family: var(--font-header);
+    color: var(--bone);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+}
+
+.footer-right p {
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+/* The Social Links */
+.footer-right a {
+    display: block;
+    color: var(--bone);
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    border-bottom: 1px solid var(--bone);
+    width: fit-content;
+    margin-left: auto; 
+}
+
+.footer-right a:hover {
+    color: var(--oxblood);
+    border-bottom-color: var(--oxblood);
+}
+
+
+
 /* ==================================================
                     HEADER CONTENT SECTIONS
 ================================================== */
