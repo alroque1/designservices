@@ -374,10 +374,7 @@ header {
 ================================================== */
 
 
-@media screen and (min-width: 900px) {
-    
-    }
-
+/* ----------MEDIA QUERIES (MEDIUM)---------- */
 @media screen and (min-width: 600px) {
     /* FOOTER FLEX FOR TABLET/DESKTOP */
     .footer-grid {
@@ -385,5 +382,113 @@ header {
         justify-content: space-between;
     }
     
+    .page {
+        padding: 0;
+        margin: 0;
+    }
 
+    .field {
+        flex: 1 1 100%;
+    }
+
+    .booking-form button {
+        width: 100%;
+        max-width: 200px;
+    }
+    .footer-layout {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+    }
+
+    .footer-right {
+
+        justify-self: end; 
+    }
+    
+    .footer-left {
+        justify-self: start;
+    }
+
+    .footer-center img {
+        width: 310px;
+        height: auto;
+        display: block;
+    }
+
+    .footer-left img {
+        width: 125px; 
+        height: auto;
+        display: block;
+    }
+}
+
+     /* ----------MEDIA QUERIES (LARGE)---------- */
+@media screen and (min-width: 900px){
+    .page {
+        min-width: 400px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .booking-form {
+        flex-wrap: wrap;
+    }
+
+/* NAV & FOOTER  */
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    margin: 0;
+    max-width: none;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.navigation li {
+    white-space: nowrap;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 10px 12px; 
+    font-size: 16pt;   
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+}
+
+.navigation label {
+    display: none;
+}
+
+.navigation a:hover {
+    background-color: var(--blue);
+    color: var(--obsidian)
+}
+
+#hamburger {
+    display: block;
+}
+
+#hamburger, .navigation label {
+    display: none;
+}
+
+.dropdown-nav {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    background: none;
+    width: auto;
+}
 }
