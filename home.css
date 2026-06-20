@@ -455,6 +455,13 @@ header {
 /* ----------MEDIA QUERIES (MEDIUM)---------- */
 @media screen and (min-width: 600px) {
     /* FOOTER FLEX FOR TABLET/DESKTOP */
+
+    .navigation a:hover {
+        background-color: var(--secondary-orange);
+        color: var(--neutral-white);
+        border-radius: 20px;
+    }
+
     .footer-grid {
         flex-direction: row;
         justify-content: space-between;
@@ -549,11 +556,7 @@ header {
     display: none;
 }
 
-.navigation a:hover {
-    background-color: var(--secondary-orange);
-    color: var(--neutral-white);
-    border-radius: 20px;
-}
+
 
 #hamburger {
     display: block;
