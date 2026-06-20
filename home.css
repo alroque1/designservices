@@ -266,7 +266,7 @@ header {
     display: flex;
     visibility: visible;
     opacity: 1;
-    background-color: var(--primary-blue);
+    background-color: var(--neutral-white);
     }
 
 label span {
