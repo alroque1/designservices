@@ -147,8 +147,8 @@ body {
 
 
 header {
-     background-color: var(--obsidian);
-     border-bottom: 1px solid var(--muted-gold);
+     background-color: var(--neutral-white);
+     border-bottom: 1px solid var(--neutral-skyblue);
     } 
 
                 
@@ -170,7 +170,7 @@ header {
 .logo-and-title h1 {
     font-size: 2rem;
     margin: 0;
-    color: var(--muted-gold);
+    color: var(--primary-orange);
     letter-spacing: 2px;
     }
                 
@@ -187,7 +187,7 @@ header {
     text-align: left;
     font-size: 16pt;
     font-family: var(--font-header);
-    color: var(--text-bone);
+    color: var(--primary-blue);
 }
 
 .navigation ul {
@@ -207,13 +207,13 @@ header {
     display: block;
     padding: 10px 30px;
     text-decoration: none;
-    color: var(--bone);
+    color: var(--neutral-skyblue);
     transition: background-color 0.5s;
     }
 
 .navigation li:hover, .navigation a:hover {
-    color: var(--obsidian);
-    background-color: var(--ember);
+    color: var(--primary-blue);
+    background-color: var(--neutral-white);
     }
 
 #hamburger {
@@ -247,7 +247,7 @@ header {
     left: 0;
     width: 100%; 
     top: 131px;
-    background-color: var(--smoke-violet);
+    background-color: var(--primary-blue);
     padding: 20px 0;
     z-index: 101;
     box-sizing: border-box;
@@ -265,11 +265,11 @@ header {
     display: flex;
     visibility: visible;
     opacity: 1;
-    background-color: var(--obsidian);
+    background-color: var(--primary-blue);
     }
 
 label span {
-    background-color: var(--muted-gold);
+    background-color: var(--secondary-orange);
     display: block;
     height: .25rem;
     position: relative;
@@ -278,7 +278,7 @@ label span {
     }
 
 label span:before, label span:after {
-    background: var(--muted-gold);
+    background: var(--secondary-orange);
     content: '';
     display: block;
     height: 100%;
@@ -319,8 +319,8 @@ label span:after {
 
 /* The Base Footer Background */
 footer {
-    background-color: var(--obsidian);
-    border-top: 4px solid var(--oxblood);
+    background-color: var(--primary-blue);
+    border-top: 4px solid var(--secondary-blue);
     padding: 3rem 0;
 }
 
@@ -351,7 +351,7 @@ footer {
 .footer-right {
     text-align: right;
     font-family: var(--font-header);
-    color: var(--bone);
+    color: var(--primary-blue);
     display: flex;
     flex-direction: column;
     gap: 1.5rem; 
@@ -372,7 +372,7 @@ footer {
     font-size: 1rem;
     letter-spacing: 1px;
     margin: 0px 20px;
-    border-bottom: 1px solid var(--bone);
+    border-bottom: 1px solid var(--primary-blue);
     width: fit-content;
     margin-left: auto; 
 }
@@ -538,7 +538,7 @@ header {
     display: inline-block;
     padding: 10px 12px; 
     font-size: 16pt;   
-    color: var(--blue);
+    color: var(--primary-blue);
     text-decoration: none;
     font-weight: normal;
     text-align: center;
@@ -549,8 +549,8 @@ header {
 }
 
 .navigation a:hover {
-    background-color: var(--blue);
-    color: var(--obsidian)
+    background-color: var(--neutral-white);
+    color: var(--primary-blue)
 }
 
 #hamburger {
