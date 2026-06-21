@@ -320,7 +320,6 @@ label span:after {
 
 .container {
   width: 100%;
-  max-width: 500px;
   height: 250px;
   background: #dbe9f6;
   border-radius: 20px;
