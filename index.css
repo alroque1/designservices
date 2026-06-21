@@ -324,7 +324,6 @@ label span:after {
   height: 250px;
   background: #dbe9f6;
   border-radius: 12px;
-  filter: blur(8px); 
 
   /* Cuts the box into a step-down shape */
   clip-path: polygon(
