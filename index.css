@@ -316,6 +316,28 @@ label span:after {
 }
 
 
+/*----------CONTAINERS----------*/
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  height: 250px;
+  background: #dbe9f6;
+  border-radius: 0 0 12px 12px; /* Smooth bottom corners */
+
+  /* Cuts the box into a step-down shape */
+  clip-path: polygon(
+    0% 0%,     /* 1. Start top-left (High level) */
+    50% 0%,    /* 2. End of high level (50% across) */
+    51% 15%,   /* 3. Drop down to lower level */
+    100% 15%,  /* 4. End of low level (Top-right corner) */
+    100% 100%, /* 5. Bottom-right corner */
+    0% 100%    /* 6. Bottom-left corner */
+  );
+}
+
+
+
 /*----------FOOTER----------*/
 
 /* The Base Footer Background */
