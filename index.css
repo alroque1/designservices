@@ -320,19 +320,7 @@ label span:after {
 
 .container {
   width: 100%;
-  height: 250px;
-  background: #dbe9f6;
   border-radius: 20px;
-
-  /* Cuts the box into a step-down shape */
-  clip-path: polygon(
-    0% 0%,     /* 1. Starts top-left (High level) */
-    72% 0%,    /* Begins curving downward slightly early */
-    76% 2%,    /* Smooth transition point over the ridge */
-    100% 10%,  /* 4. Finishes flat on the lower level */
-    100% 100%, /* 5. Bottom-right corner */
-    0% 100%    /* 6. Bottom-left corner */
-  );
 }
 
 
