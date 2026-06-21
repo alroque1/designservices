@@ -248,7 +248,6 @@ header {
     left: 0;
     width: 100%; 
     top: 131px;
-    background-color: var(--primary-blue);
     padding: 20px 0;
     z-index: 101;
     box-sizing: border-box;
