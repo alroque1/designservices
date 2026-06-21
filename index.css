@@ -323,14 +323,14 @@ label span:after {
   max-width: 500px;
   height: 250px;
   background: #dbe9f6;
-  border-radius: 12px;
+  border-radius: 20px;
 
   /* Cuts the box into a step-down shape */
   clip-path: polygon(
-    0% 0%,     /* 1. Start top-left (High level) */
-    50% 0%,    /* 2. End of high level (50% across) */
-    51% 15%,   /* 3. Drop down to lower level */
-    100% 15%,  /* 4. End of low level (Top-right corner) */
+    0% 0%,     /* 1. Starts top-left (High level) */
+    75% 0%,    /* 2. High level runs flat across 75% of the card */
+    80% 15%,   /* 3. Smoothly slopes down near the right edge */
+    100% 15%,  /* 4. Finishes flat on the lower level */
     100% 100%, /* 5. Bottom-right corner */
     0% 100%    /* 6. Bottom-left corner */
   );
