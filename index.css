@@ -334,11 +334,6 @@ label span:after {
     100% 100%, /* 5. Bottom-right corner */
     0% 100%    /* 6. Bottom-left corner */
   );
-
-  background: 
-    radial-gradient(circle at 75% 40px, transparent 40px, #dbe9f6 41px),
-    linear-gradient(to right, #dbe9f6 75%, transparent 75%),
-    linear-gradient(to top, #dbe9f6 210px, transparent 210px);
 }
 
 
