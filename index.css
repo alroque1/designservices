@@ -328,9 +328,9 @@ label span:after {
   /* Cuts the box into a step-down shape */
   clip-path: polygon(
     0% 0%,     /* 1. Starts top-left (High level) */
-    75% 0%,    /* 2. High level runs flat across 75% of the card */
-    80% 15%,   /* 3. Smoothly slopes down near the right edge */
-    100% 15%,  /* 4. Finishes flat on the lower level */
+    72% 0%,    /* Begins curving downward slightly early */
+    76% 2%,    /* Smooth transition point over the ridge */
+    100% 10%,  /* 4. Finishes flat on the lower level */
     100% 100%, /* 5. Bottom-right corner */
     0% 100%    /* 6. Bottom-left corner */
   );
