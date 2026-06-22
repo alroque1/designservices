@@ -269,7 +269,7 @@ header {
     background-color: var(--neutral-white);
     }
 
-label span {
+label {
     background-color: var(--secondary-orange);
     display: block;
     height: .25rem;
@@ -278,7 +278,7 @@ label span {
     width: 2rem;
     }
 
-label span:before, label span:after {
+label:before, label:after {
     background: var(--secondary-orange);
     content: '';
     display: block;
@@ -288,12 +288,12 @@ label span:before, label span:after {
     width: 100%;
     }
 
-label span:before {
+label:before {
     top: .75rem;
     left: 0;
     }
 
-label span:after {
+label:after {
     top: -.75rem;
     left: 0;
     }
@@ -301,16 +301,16 @@ label span:after {
 
 /* ---------HAMBURGER "X" ANIMATION ---------*/
 
-#hamburger:checked ~ label span {
+#hamburger:checked ~ label {
     background-color: transparent; 
 }
 
-#hamburger:checked ~ label span:before {
+#hamburger:checked ~ label:before {
     top: 0;
     transform: rotate(45deg);
 }
 
-#hamburger:checked ~ label span:after {
+#hamburger:checked ~ label:after {
     top: 0;
     transform: rotate(-45deg);
 }
