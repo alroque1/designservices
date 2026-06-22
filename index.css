@@ -212,9 +212,12 @@ header {
     }
 
 .navigation li:hover, .navigation a:hover {
-    color: var(--primary-blue);
-    transition: border-radius 0.3s ease; 
+    background-color: var(--secondary-orange);
+        color: var(--neutral-white);
+        border-radius: 20px;
+    
     }
+    
 
 #hamburger {
     display: none;
@@ -458,11 +461,7 @@ header {
 @media screen and (min-width: 600px) {
     /* FOOTER FLEX FOR TABLET/DESKTOP */
 
-    .navigation a:hover {
-        background-color: var(--secondary-orange);
-        color: var(--neutral-white);
-        border-radius: 20px;
-    }
+
 
     .footer-grid {
         flex-direction: row;
