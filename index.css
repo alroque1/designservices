@@ -258,7 +258,7 @@ header {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    color: var(--primary-blue);
+    color: var(--neutral-white);
     text-align: center;
     }
 
@@ -269,7 +269,7 @@ header {
     background-color: var(--neutral-white);
     }
 
-label {
+label span {
     background-color: var(--secondary-orange);
     display: block;
     height: .25rem;
@@ -278,7 +278,7 @@ label {
     width: 2rem;
     }
 
-label:before, label:after {
+label span:before, label span:after {
     background: var(--secondary-orange);
     content: '';
     display: block;
@@ -288,12 +288,12 @@ label:before, label:after {
     width: 100%;
     }
 
-label:before {
+label span:before {
     top: .75rem;
     left: 0;
     }
 
-label:after {
+label span:after {
     top: -.75rem;
     left: 0;
     }
@@ -301,16 +301,16 @@ label:after {
 
 /* ---------HAMBURGER "X" ANIMATION ---------*/
 
-#hamburger:checked ~ label {
+#hamburger:checked ~ label span {
     background-color: transparent; 
 }
 
-#hamburger:checked ~ label:before {
+#hamburger:checked ~ label span:before {
     top: 0;
     transform: rotate(45deg);
 }
 
-#hamburger:checked ~ label:after {
+#hamburger:checked ~ label span:after {
     top: 0;
     transform: rotate(-45deg);
 }
