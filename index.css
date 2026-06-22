@@ -384,6 +384,7 @@ footer {
 
 .footer-right a:hover {
     border-bottom-color: var(--secondary-blue);
+    transition: transform 0.3s ease;
 }
 
 
