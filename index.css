@@ -379,11 +379,12 @@ footer {
     border-bottom: 1.5px solid var(--neutral-white);
     width: fit-content;
     margin-left: auto; 
+    transition: border-color 0.3s ease, transform 0.3s ease;
 }
 
 .footer-right a:hover {
     border-bottom-color: var(--secondary-blue);
-    transition: transform 0.5 ease;
+    transform: scale(1.05);
 }
 
 
