@@ -375,7 +375,7 @@ a.button.empty span {
 }
 
 span {
-    text-shadow: -7px 11px 8px var(--secondary-blue);
+    text-shadow: -2px 2px 4px rgba(0, 124, 257, .55);
 }
 
 
