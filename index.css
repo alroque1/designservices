@@ -148,7 +148,7 @@ body {
 
 header {
      background-color: var(--neutral-white);
-     border-bottom: 1px solid var(--neutral-skyblue);
+     
     } 
 
                 
@@ -200,7 +200,8 @@ header {
 
 .navigation li {
     list-style: none;
-    padding: 5px 20px;
+    padding: 5px 30px;
+    border-bottom: 1px solid var(--primary-orange);
     }
 
 
