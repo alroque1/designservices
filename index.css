@@ -350,7 +350,7 @@ a.button {
     border-radius: 15px;
 }
 
-a.button a:hover {
+a.button:hover {
     transform: scale(1.05);
 }
 
@@ -370,7 +370,7 @@ a.button.empty {
 }
 
 
-a.button.empty a:hover {
+a.button.empty:hover {
     border-bottom-color: 2px solid var(--primary-orange);
     transform: scale(1.05);
 }
