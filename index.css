@@ -213,7 +213,6 @@ header {
 
 .navigation li:hover, .navigation a:hover {
     color: var(--primary-blue);
-    background-color: var(--neutral-skyblue);
     transition: border-radius 0.3s ease; 
     }
 
