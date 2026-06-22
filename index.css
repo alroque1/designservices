@@ -146,11 +146,19 @@ body {
 }
 
 
-header {
-     background-color: var(--neutral-white);
-     
-} 
 
+/* ==================================================
+                    HEADER CONTENT SECTIONS
+================================================== */
+
+header {
+    margin: 0 auto;
+    background-size: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--neutral-white);
+}
                 
 .title {
     display: grid;
@@ -308,6 +316,25 @@ label span:after {
 }
 
 
+
+
+/* ==================================================
+                    MAIN CONTENT SECTIONS
+================================================== */
+
+.name-and-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1 {
+    color: var(--primary-orange);
+    font-family: var(--font-header);
+    font-size: 50px;
+}
+
 /*----------BUTTONS----------*/
 
 a.button {
@@ -325,7 +352,9 @@ a.button {
 
 /*----------CONTAINERS----------*/
 
-
+/* ==================================================
+                    FOOTER CONTENT SECTIONS
+================================================== */
 
 /*----------FOOTER----------*/
 
@@ -393,47 +422,6 @@ footer {
     border-bottom-color: var(--secondary-blue);
     transform: scale(1.05);
 }
-
-
-
-/* ==================================================
-                    HEADER CONTENT SECTIONS
-================================================== */
-
-header {
-    margin: 0 auto;
-    background-size: 600px;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
-
-
-/* ==================================================
-                    MAIN CONTENT SECTIONS
-================================================== */
-
-.name-and-icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
-
-h1 {
-    color: var(--primary-orange);
-    font-family: var(--font-header);
-    font-size: 50px;
-}
-
-
-
-/* ==================================================
-                    FOOTER CONTENT SECTIONS
-================================================== */
-
-
 
 
 
