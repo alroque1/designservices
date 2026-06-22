@@ -308,6 +308,21 @@ label span:after {
 }
 
 
+/*----------BUTTONS----------*/
+
+a.button {
+    text-decoration: none;
+    background-color: var(--primary-blue);
+    color: var(--neutral-white);
+    display: inline-block;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-weight: lighter;
+    border-radius: 20px;
+}
+
 /*----------CONTAINERS----------*/
 
 
