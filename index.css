@@ -201,15 +201,13 @@ header {
 .navigation li {
     list-style: none;
     padding: 5px 30px;
-    
+    border-bottom: 1px solid var(--neutral-white);
     }
 
 
 .navigation li:hover {
-    background-color: var(--secondary-orange);
-    color: var(--neutral-white);
     border-radius: 20px;
-    border-bottom: 1px solid var(--neutral-skyblue);
+    border-bottom: 1px solid var(--primary-orange);
 }
     
 
