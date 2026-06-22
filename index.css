@@ -376,14 +376,14 @@ footer {
     font-size: 1rem;
     letter-spacing: 1px;
     margin: 5px 20px;
-    border-bottom: 1px solid var(--neutral-white);
+    border-bottom: 1.5px solid var(--neutral-white);
     width: fit-content;
     margin-left: auto; 
 }
 
 .footer-right a:hover {
     border-bottom-color: var(--secondary-blue);
-    transition: transform scale(1.05);
+    transition: transform 0.5 ease;
 }
 
 
