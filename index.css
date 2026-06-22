@@ -267,6 +267,34 @@ header {
     background-color: var(--neutral-white);
     }
 
+label span {
+    background-color: var(--secondary-orange);
+    display: block;
+    height: .25rem;
+    position: relative;
+    transition: background-color .3s ease-out;
+    width: 2rem;
+    }
+
+label span:before, label span:after {
+    background: var(--secondary-orange);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    }
+
+label span:before {
+    top: .75rem;
+    left: 0;
+    }
+
+label span:after {
+    top: -.75rem;
+    left: 0;
+    }
 
 
 /* ---------HAMBURGER "X" ANIMATION ---------*/
@@ -434,6 +462,7 @@ header {
         background-color: var(--secondary-orange);
         color: var(--neutral-white);
         border-radius: 20px;
+        width: 40px;
     }
 
     .footer-grid {
@@ -522,7 +551,6 @@ header {
     font-size: 16pt;   
     color: var(--primary-blue);
     text-decoration: none;
-    font-weight: normal;
     text-align: center;
 }
 
