@@ -356,7 +356,7 @@ a.button:hover {
 
 a.button.empty {
     text-decoration: none;
-    background-color: var(--neutral-white);
+    background-color: transparent;
     color: var(--primary-blue);
     display: inline-flex;
     align-items: center;
