@@ -375,14 +375,10 @@ a.button.empty:hover {
 }
 
 a.button.empty span {
-    border-bottom: 2px solid var(--neutral-white);
-    transition: border-color 0.3s ease, transform 0.3s ease;
+    border-bottom: 2px solid var(--primary-orange);
+
 }
 
-a.button.empty span:hover {
-    border-bottom-color: var(--primary-orange);
-    transform: scale(1.05);
-}
 
 /*----------CONTAINERS----------*/
 
