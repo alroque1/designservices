@@ -353,6 +353,7 @@ a.button {
 
 a.button.empty {
     text-decoration: none;
+    background-color: var(--neutral-white);
     color: var(--primary-blue);
     display: inline-flex;
     align-items: center;
