@@ -372,11 +372,11 @@ footer {
 /* The Social Links */
 .footer-right a {
     display: inline-block;
-    color: var(--bone);
+    color: var(--neutral-black);
     text-decoration: none;
     font-size: 1rem;
     letter-spacing: 1px;
-    margin: 0px 20px;
+    margin: 5px 20px;
     border-bottom: 1px solid var(--neutral-white);
     width: fit-content;
     margin-left: auto; 
