@@ -398,6 +398,11 @@ header {
                     MAIN CONTENT SECTIONS
 ================================================== */
 
+.name-and-icon {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     color: var(--primary-orange);
     font-family: var(--font-header);
