@@ -201,12 +201,12 @@ header {
 .navigation li {
     list-style: none;
     padding: 5px 30px;
-    border-bottom: 1px solid var(--neutral-white);
+    border-bottom: 2px solid var(--neutral-white);
     }
 
 
 .navigation li:hover {
-    border-bottom: 1px solid var(--primary-orange);
+    border-bottom: 2px solid var(--primary-orange);
 }
     
 
