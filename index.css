@@ -351,7 +351,6 @@ a.button {
 }
 
 a.button a:hover {
-    border-bottom-color: 2px solid var(--primary-orange);
     transform: scale(1.05);
 }
 
