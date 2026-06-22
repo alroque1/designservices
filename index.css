@@ -203,15 +203,8 @@ header {
     padding: 5px 20px;
     }
 
-.navigation a, .navigation a:visited, .navigation a:active {
-    display: block;
-    padding: 10px 30px;
-    text-decoration: none;
-    transition: background-color 0.5s ease-out;
-    border-radius: 20px;
-    }
 
-.navigation li:hover, .navigation a:hover {
+.navigation li:hover {
     background-color: var(--secondary-orange);
     color: var(--neutral-white);
     border-radius: 20px;
@@ -238,9 +231,7 @@ header {
     -webkit-tap-highlight-color: transparent;
     }
 
-.navigation a {
-    text-align: center;
-    }
+
 
 .dropdown-nav {
     display: none;
@@ -542,14 +533,7 @@ header {
     white-space: nowrap;
 }
 
-.navigation a {
-    display: inline-block;
-    padding: 10px 12px; 
-    font-size: 16pt;   
-    color: var(--primary-blue);
-    text-decoration: none;
-    text-align: center;
-}
+
 
 .navigation label {
     display: none;
