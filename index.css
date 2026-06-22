@@ -462,7 +462,6 @@ header {
         background-color: var(--secondary-orange);
         color: var(--neutral-white);
         border-radius: 20px;
-        width: 40px;
     }
 
     .footer-grid {
