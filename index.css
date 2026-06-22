@@ -355,6 +355,10 @@ a.button:hover {
     transform: scale(1.05);
 }
 
+a.button span {
+    text-shadow: -2px 2px 4px var(--secondary-blue);
+}
+
 a.button.empty {
     text-decoration: none;
     background-color: var(--neutral-white);
@@ -371,12 +375,9 @@ a.button.empty {
 
 a.button.empty span {
     border-bottom: 2px solid var(--primary-orange);
-
-}
-
-span {
     text-shadow: -2px 2px 4px rgba(0, 124, 257, .55);
 }
+
 
 
 /*----------CONTAINERS----------*/
