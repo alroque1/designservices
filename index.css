@@ -279,7 +279,7 @@ label span {
     }
 
 label span:before, label span:after {
-    background: var(--secondary-orange);
+    border-bottom: 1px solid var(--neutral-white);
     content: '';
     display: block;
     height: 100%;
