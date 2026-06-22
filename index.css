@@ -362,6 +362,13 @@ a.button.empty {
     padding: 5px 15px;
     font-family: var(--font-body);
     border-radius: 15px;
+    border-bottom: 1.5px solid var(--neutral-white);
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.a.button.empty a:hover {
+    border-bottom-color: var(--primary-orange);
+    transform: scale(1.05);
 }
 
 /*----------CONTAINERS----------*/
