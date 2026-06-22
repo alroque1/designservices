@@ -528,10 +528,6 @@ header {
     flex-wrap: nowrap;
 }
 
-.navigation li {
-    border-bottom: 1px solid var(--neutral-skyblue);
-}
-
 
 
 .navigation label {
