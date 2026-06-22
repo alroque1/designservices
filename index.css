@@ -353,7 +353,7 @@ footer {
 
 /* RIGHT SIDE */
 .footer-right {
-    text-align: right;
+    text-align: center;
     font-family: var(--font-header);
     color: var(--primary-blue);
     display: flex;
