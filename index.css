@@ -258,7 +258,7 @@ header {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    color: var(--bone);
+    color: var(--neutral-black);
     text-align: center;
     }
 
@@ -279,7 +279,7 @@ label span {
     }
 
 label span:before, label span:after {
-    border-bottom: 1px solid var(--neutral-white);
+    background: var(--secondary-orange);
     content: '';
     display: block;
     height: 100%;
