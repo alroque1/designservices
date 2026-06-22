@@ -383,8 +383,7 @@ footer {
 }
 
 .footer-right a:hover {
-    color: var(--oxblood);
-    border-bottom-color: var(--oxblood);
+    border-bottom-color: var(--secondary-blue);
 }
 
 
