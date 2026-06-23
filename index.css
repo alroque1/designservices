@@ -384,7 +384,9 @@ h2 {
     font-family: var(--font-body);
     color: var(--primary-blue);
     font-size: 20px;
-    text-align: center;
+    width: 300px;
+    align-items: center;
+    display: inline-block;
 }
 
 
