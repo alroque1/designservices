@@ -113,6 +113,7 @@ h1 {
 h2, h4, h5, h6 {
     font-family: var(--font-body);
     line-height: 1.2;
+    margin: 0;                          /*----------NOTE: REMOVE if it messes with any spacing in the page----------*/
 }
 
 h3 {
