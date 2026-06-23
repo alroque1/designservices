@@ -132,6 +132,8 @@ nav a {
 html {
     min-width: 400px;
     scroll-behavior: smooth;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body {
