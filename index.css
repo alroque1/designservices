@@ -379,8 +379,13 @@ a.button.empty span {
 }
 
 
-/*----------CONTAINERS----------*/
-
+/*----------home body----------*/
+h2 {
+    font-family: var(--font-subheader);
+    color: var(--primary-blue);
+    font-size: 20px;
+    text-align: center;
+}
 
 
 
