@@ -386,7 +386,7 @@ a.button.empty span {
 
 /*----------home body----------*/
 h3 {
-    font-family: var(--font-body);
+    font-family: var(--font-subheader);
     color: var(--primary-blue);
     font-size: 20px;
     width: 300px;
