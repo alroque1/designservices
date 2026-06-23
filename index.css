@@ -111,7 +111,7 @@ h1 {
 }
 
 h2, h4, h5, h6 {
-    font-family: var(--font-subheader);
+    font-family: var(--font-body);
     line-height: 1.2;
 }
 
