@@ -337,7 +337,7 @@ h1 {
 
 /*----------BUTTONS----------*/
 
-a.button {
+a.button, .contact.button {
     text-decoration: none;
     background-color: var(--primary-blue);
     color: var(--neutral-white);
@@ -351,7 +351,7 @@ a.button {
     border-radius: 15px;
 }
 
-a.button:hover {
+a.button:hover, .contact.button:hover {
     transform: scale(1.05);
 }
 
@@ -379,8 +379,12 @@ a.button.empty span {
 }
 
 
-
 /*----------CONTAINERS----------*/
+
+
+
+
+
 
 /* ==================================================
                     FOOTER CONTENT SECTIONS
