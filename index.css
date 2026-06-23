@@ -22,7 +22,7 @@
    License: none (public domain)
 */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h4, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -110,10 +110,14 @@ h1 {
     margin-bottom: 1rem;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h4, h5, h6 {
     font-family: var(--font-subheader);
     line-height: 1.2;
+}
 
+h3 {
+    font-family: var(--font-subheader);
+    line-height: 1.2;
 }
 
 nav a {
@@ -381,7 +385,7 @@ a.button.empty span {
 
 
 /*----------home body----------*/
-h2 {
+h3 {
     font-family: var(--font-body);
     color: var(--primary-blue);
     font-size: 20px;
