@@ -385,7 +385,7 @@ a.button.empty span {
 }
 
 
-/*----------home body----------*/
+/*----------hero----------*/
 h2 {
     font-family: var(--font-body);
     color: var(--primary-blue);
@@ -402,7 +402,9 @@ h2 {
     padding-bottom: 15px;
 }
 
-
+.project h2 {
+    margin-bottom: 15px;
+}
 
 
 
