@@ -132,8 +132,8 @@ nav a {
 html {
     min-width: 400px;
     scroll-behavior: smooth;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px;                 /*----------NOTE: REMOVE if it messes with any spacing in the page----------*/
+    padding-right: 20px;                /*----------NOTE: REMOVE if it messes with any spacing in the page----------*/
 }
 
 body {
@@ -454,7 +454,7 @@ footer {
     text-decoration: none;
     font-size: 1rem;
     letter-spacing: 1px;
-    margin: 5px 5px 5px auto;
+    margin: 5px 10px 5px auto;
     border-bottom: 1.5px solid var(--neutral-white);
     width: fit-content;
     transition: border-color 0.3s ease, transform 0.3s ease;
