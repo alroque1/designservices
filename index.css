@@ -449,6 +449,7 @@ h3 {
 
 .container.hero {
     background-color: var(--neutral-white);
+    padding-bottom: 20px;
 }
 
 .hero, .works, .process, .project, .form {
@@ -471,6 +472,10 @@ h3 {
         0 100%
     );
 }
+
+    .works h3 {
+        padding: 50px 0 20px 0;
+    }
 
 .container.process {
     background-color: var(--neutral-darkblue);
