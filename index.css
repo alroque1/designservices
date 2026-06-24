@@ -560,13 +560,13 @@ footer {
     font-size: 1rem;
     letter-spacing: 1px;
     margin: 5px 10px 5px auto;
-    border-bottom: 1.5px solid var(--neutral-white);
+    border-bottom: 1.5px solid var(--primary-blue);
     width: fit-content;
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
 
 .footer-right a:hover {
-    border-bottom-color: 2px solid var(--secondary-blue);
+    border-bottom-color: 2px solid var(--neutral-white);
     transform: scale(1.05);
 }
 
