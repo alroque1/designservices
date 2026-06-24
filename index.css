@@ -412,8 +412,13 @@ h3 {
     font-family: var(--font-subheader);
     color: var(--primary-blue);
     font-size: 30px;
-    align-items: center;
-    display: inline-block;
+    text-align: left;
+}
+
+.contact h3 {
+     text-align: center;
+     color: var(--primary-orange);
+     font-size: 36px;
 }
 
 
