@@ -497,6 +497,26 @@ h3 {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     padding-bottom: 20px;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    justify-content: space-evenly;
+}
+
+.works-scroll::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for cleaner mobile look */
+}
+
+.cocktail-card {
+    width: 200px; 
+    flex-shrink: 0;    
+    height: 280px;
+    background-color: var(--oxblood);
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
+    scroll-snap-align: center;
+    box-shadow: 0 0 20px rgba(200, 91, 41, 0.7);
+    border: 1px solid var(--oxblood);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .container.works h3 {
