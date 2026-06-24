@@ -484,11 +484,17 @@ h3 {
         0 100%
     );
 
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
     gap: 20px;
-    color: white;
+    color: var(--neutral-white);
     padding: 50px;
+}
+
+.works-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
 }
 
     .works h3 {
