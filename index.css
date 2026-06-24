@@ -448,14 +448,20 @@ h3 {
 
 /*----------container----------*/
 
+.hero, .works, .process, .project, .form {
+    padding: 0 20px;
+}
+
+
+/*----------container hero----------*/
+
 .container.hero {
     background-color: var(--neutral-white);
     padding-bottom: 20px;
 }
 
-.hero, .works, .process, .project, .form {
-    padding: 0 20px;
-}
+
+/*----------container works----------*/
 
 .container.works {
     background: linear-gradient(
@@ -506,11 +512,14 @@ h3 {
     margin: 0;
 }
 
+/*----------container process----------*/
 
 .container.process {
     background-color: var(--neutral-darkblue);
     border-radius: 25px;
 }
+
+/*----------container contact----------*/
 
 .container.contact {
     background-color: var(--neutral-skyblue);
