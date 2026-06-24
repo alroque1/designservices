@@ -464,6 +464,7 @@ h3 {
         #005491 64%,
         #00192B 100%
     );
+    border-radius: 25px 75px 0 0;
 }
 
 .works-card {
