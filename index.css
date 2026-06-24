@@ -153,9 +153,8 @@ body {
     color: var(--neutral-black);
     background: linear-gradient(
         180deg,
-        #00192B 0%,
-        #005491 50%,
-        #00192B 100%
+        #FFFFFF 50%,
+        #005491 100%
     );
 
  .container {
