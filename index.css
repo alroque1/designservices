@@ -415,13 +415,13 @@ h3 {
     text-align: left;
 }
 
-.contact h3 {
+.contact h1 {
      text-align: center;
      color: var(--primary-orange);
      font-size: 36px;
 }
 
-.contact p {
+.contact h2 {
     font-family: var(--font-body);
     color: var(--primary-blue);
     font-size: 20px;
