@@ -164,7 +164,6 @@ main {
         #D9EFFF 50%,
         #005491 100%,
     );
-    border-radius: 25px;
 }
 
 /* ==================================================
@@ -451,7 +450,6 @@ h3 {
 
 /*----------container works----------*/
 .container.works {
-    min-height: 400px;
     background: linear-gradient(
     180deg,
         #00192B 0%,
@@ -462,8 +460,8 @@ h3 {
 }
 
 .container.process {
-    min-height: 400px;
     background-color: var(--neutral-darkblue);
+    border-radius: 25px;
 }
 
 .container.contact {
