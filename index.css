@@ -478,6 +478,10 @@ h3 {
 
 .works-card {
     flex: 0 0 300px;
+    height: 320px; /* keeps all equal */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     scroll-snap-align: start;
     background: linear-gradient(
         180deg,
@@ -486,9 +490,10 @@ h3 {
         #005491 64%,
         #00192B 100%
     );
+
     border-radius: 25px 90px 25px 25px;
     color: var(--neutral-white);
-    padding: 50px;
+    padding: 30px;
 }
 
 .works-scroll {
