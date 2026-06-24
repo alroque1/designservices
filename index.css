@@ -489,6 +489,12 @@ h3 {
     gap: 20px;
     color: white;
     padding: 50px;
+    flex: 0 0 300px;
+    scroll-snap-align: start;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
 }
 
     .works h3 {
