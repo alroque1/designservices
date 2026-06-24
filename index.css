@@ -487,10 +487,11 @@ h3 {
     gap: 20px;
     align-items: center;
     scroll-snap-align: start;
-    background-color:var(--neutral-skyblue);
-
+    background: rgba(0, 25, 43, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 25px 90px 25px 25px;
-    color: var(--neutral-darkblue);
+    color: var(--neutral-white);
     padding: 30px;
 }
 
