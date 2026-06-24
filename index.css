@@ -287,6 +287,8 @@ header {
     visibility: visible;
     opacity: 1;
     background-color: var(--neutral-white);
+    left: 0;
+    right: 0;
 }
 
 label span {
