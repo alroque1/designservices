@@ -478,11 +478,14 @@ h3 {
 
 .works-card {
     flex: 0 0 300px;
-    height: 320px; /* keeps all equal */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    height: 320px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 20px;
+
     scroll-snap-align: start;
+
     background: linear-gradient(
         180deg,
         #00192B 0%,
@@ -492,7 +495,7 @@ h3 {
     );
 
     border-radius: 25px 90px 25px 25px;
-    color: var(--neutral-white);
+    color: white;
     padding: 30px;
 }
 
