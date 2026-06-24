@@ -485,7 +485,7 @@ h3 {
     );
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 2fr);
     gap: 20px;
     color: white;
     padding: 50px;
