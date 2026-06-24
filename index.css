@@ -450,12 +450,12 @@ h3 {
 
 /*----------container----------*/
 
-.container {
-    padding: 0 20px;
-}
-
 .container.hero {
     background-color: var(--neutral-white);
+}
+
+.hero, .works, .process, .project, .form {
+    padding: 0 20px;
 }
 
 .container.works {
