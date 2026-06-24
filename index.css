@@ -459,15 +459,15 @@ h3 {
 
 .container.works {
     background: linear-gradient(
-    180deg,
+        180deg,
         #00192B 0%,
         #005491 37%,
         #005491 64%,
         #00192B 100%
     );
+
     border-radius: 25px 90px 0 0;
-    display: grid;
-    grid-template-rows: 1px 1px;
+    padding: 20px;
 }
 
 .works-card {
@@ -501,9 +501,10 @@ h3 {
     padding-bottom: 20px;
 }
 
-    .works h3 {
-        padding: 50px 0 20px 0;
-    }
+.container.works h3 {
+    padding: 30px 0 20px 0;
+    margin: 0;
+}
 
 
 .container.works {
