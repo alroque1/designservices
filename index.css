@@ -479,20 +479,12 @@ h3 {
 .works-card {
     flex: 0 0 300px;
     scroll-snap-align: start;
-
     background: linear-gradient(
         180deg,
         #00192B 0%,
         #005491 37%,
         #005491 64%,
         #00192B 100%
-    );
-
-    clip-path: polygon(
-        0 40px,
-        100% 0,
-        100% calc(100% - 40px),
-        0 100%
     );
 
     color: white;
