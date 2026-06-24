@@ -500,6 +500,20 @@ h3 {
     padding: 30px;
 }
 
+.works-card h4, .works-card p {
+    text-align: left;
+}
+
+.works-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.works-card p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
 .works-scroll {
     display: flex;
     gap: 20px;
