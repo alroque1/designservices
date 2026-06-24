@@ -449,7 +449,7 @@ h3 {
 
 .container.process {
     min-height: 400px;
-    background-color: var(--secondary-blue);
+    background-color: var(--neutral-darkblue);
 }
 
 .container.contact {
