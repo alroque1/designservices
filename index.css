@@ -487,7 +487,7 @@ h3 {
         #00192B 100%
     );
     border-radius: 25px 90px 25px 25px;
-    color: white;
+    color: var(--neutral-white);
     padding: 50px;
 }
 
