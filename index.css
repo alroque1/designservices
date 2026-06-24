@@ -80,6 +80,7 @@ table {
 --secondary-orange: #CF7B31;
 --neutral-white: #FFFFFF;
 --neutral-skyblue: #D9EFFF;
+--neutral-darkblue: #00192B;
 --neutral-black: #040000;
 
 
@@ -451,7 +452,7 @@ h3 {
     background-color: var(--secondary-blue);
 }
 
-.container.pcontact {
+.container.contact {
     min-height: 400px;
     background-color: var(--neutral-skyblue);
     border-radius: 25px 0;
