@@ -174,7 +174,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    background-color: var(--neutral-white);
+    background-color: transparent;
     border-radius: 25px 25px 0 0;
 }
                 
