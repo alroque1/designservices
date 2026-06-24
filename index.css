@@ -499,7 +499,6 @@ h3 {
     padding-bottom: 20px;
     gap: 1.5rem;
     padding: 1rem 1.5rem;
-    justify-content: space-evenly;
 }
 
 .works-scroll::-webkit-scrollbar {
