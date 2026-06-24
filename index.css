@@ -477,18 +477,17 @@ h3 {
 }
 
 .works-card {
-    flex: 0 0 300px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 20px;
-    align-items: center;
-    scroll-snap-align: start;
-    background: rgba(0, 25, 43, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 25px 90px 25px 25px;
-    color: var(--neutral-white);
-    padding: 30px;
+        flex: 0 0 300px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 20px;
+        align-items: center;
+        scroll-snap-align: start;
+        background: rgba(0, 25, 43, 0.6);
+        backdrop-filter: blur(10px);
+        border-radius: 25px 90px 25px 25px;
+        color: var(--neutral-white);
+        padding: 30px;
 }
 
 .works-card h4, .works-card p {
