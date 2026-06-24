@@ -156,8 +156,9 @@ body {
         #FFFFFF 50%,
         #005491 100%
     );
-
- .container {
+    border-radius: 20px;
+    margin: 20px auto;
+    .container {
     margin: 0 auto;
     line-height: 1.5;
 }
