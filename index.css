@@ -453,9 +453,9 @@ h3 {
 }
 
 .container.contact {
-    min-height: 400px;
+    min-height: 200px;
     background-color: var(--neutral-skyblue);
-    border-radius: 25px 0;
+    border-radius: 25px 25px 0 0;
 }
 
 /* ==================================================
