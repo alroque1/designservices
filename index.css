@@ -158,7 +158,14 @@ body {
     line-height: 1.5;
 }
 
-
+main {
+    background: linear-gradient(
+    180deg,
+        #D9EFFF 50%,
+        #005491 100%,
+    );
+    border-radius: 25px;
+}
 
 /* ==================================================
                     HEADER CONTENT SECTIONS
@@ -171,6 +178,7 @@ header {
     align-items: center;
     gap: 15px;
     background-color: var(--neutral-white);
+    border-radius: 25px 25px 0 0;
 }
                 
 .title {
