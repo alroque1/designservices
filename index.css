@@ -477,7 +477,7 @@ h3 {
 }
 
 .works-card {
-        flex: 0 0 300px;
+        flex: 0 0 225px;
         display: grid;
         grid-template-columns: 1fr auto;
         gap: 20px;
@@ -487,7 +487,7 @@ h3 {
         backdrop-filter: blur(10px);
         border-radius: 25px 90px 25px 25px;
         color: var(--neutral-white);
-        padding: 30px;
+        padding: 35px 15px;
 }
 
 .works-card h4, .works-card p {
