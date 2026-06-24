@@ -385,7 +385,8 @@ a.button.empty span {
 }
 
 
-/*----------hero----------*/
+/*----------hero class----------*/
+
 h2 {
     font-family: var(--font-body);
     color: var(--primary-blue);
@@ -406,6 +407,14 @@ h2 {
     margin-bottom: 15px;
 }
 
+/*----------container class----------*/
+h3 {
+    font-family: var(--font-subheader);
+    color: var(--primary-blue);
+    font-size: 30px;
+    align-items: center;
+    display: inline-block;
+}
 
 
 /* ==================================================
