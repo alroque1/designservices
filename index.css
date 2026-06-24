@@ -502,6 +502,18 @@ h3 {
     justify-content: space-evenly;
 }
 
+.works-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.works-scroll::-webkit-scrollbar-track {
+    background: transparent; /* removes grey bar */
+}
+
+.works-scroll::-webkit-scrollbar-thumb {
+    background: #005491; /* your brand color */
+    border-radius: 10px;
+}
 
 .container.works h3 {
     padding: 30px 0 20px 0;
