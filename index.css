@@ -448,7 +448,12 @@ h3 {
     padding-bottom: 15px;
 }
 
-/*----------container works----------*/
+/*----------container----------*/
+
+.container.contact {
+    background-color: var(--neutral-white);
+}
+
 .container.works {
     background: linear-gradient(
     180deg,
