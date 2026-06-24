@@ -526,7 +526,7 @@ h3 {
 }
 
 .works-scroll::-webkit-scrollbar-thumb {
-    background: #005491; /* your brand color */
+    background: var(--primary-orange);
     border-radius: 10px;
 }
 
