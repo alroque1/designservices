@@ -139,6 +139,12 @@ html {
     scroll-behavior: smooth;
     padding-left: 20px;                 /*----------NOTE: REMOVE if it messes with any spacing in the page----------*/
     padding-right: 20px;                /*----------NOTE: REMOVE if it messes with any spacing in the page----------*/
+    background: linear-gradient(
+    180deg,
+        #D9EFFF 0%,
+        #005491 50%,
+        #D9EFFF 100%
+  );
 }
 
 body {
