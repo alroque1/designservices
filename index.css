@@ -489,12 +489,6 @@ h3 {
     gap: 20px;
     color: white;
     padding: 50px;
-    flex: 0 0 300px;
-    scroll-snap-align: start;
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-}
 }
 
     .works h3 {
@@ -508,14 +502,6 @@ h3 {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     padding: 20px 0;
-}
-
-.container.works {
-    scrollbar-width: none; /* Firefox */
-}
-
-.container.works::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
 }
 
 
