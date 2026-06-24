@@ -534,7 +534,7 @@ h3 {
 }
 
 .works-card-arrow {
-    justify-self: end;
+    align-self: end;
 }
 
 /*----------container process----------*/
