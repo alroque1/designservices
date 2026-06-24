@@ -464,6 +464,16 @@ h3 {
         #005491 64%,
         #00192B 100%
     );
+}
+
+.works-card {
+    background: linear-gradient(
+    180deg,
+        #00192B 0%,
+        #005491 37%,
+        #005491 64%,
+        #00192B 100%
+    );
 
     clip-path: polygon(
         0 40px,
