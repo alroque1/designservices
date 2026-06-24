@@ -151,20 +151,18 @@ body {
     text-align: center;
     font-family: var(--font-body);
     color: var(--neutral-black);
-}
+    background: linear-gradient(
+        180deg,
+        #00192B 0%,
+        #005491 50%,
+        #00192B 100%
+    );
 
  .container {
     margin: 0 auto;
     line-height: 1.5;
 }
 
-.full-container {
-    background: linear-gradient(
-    180deg,
-        #D9EFFF 50%,
-        #005491 100%,
-    );
-}
 
 /* ==================================================
                     HEADER CONTENT SECTIONS
