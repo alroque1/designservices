@@ -480,13 +480,6 @@ h3 {
 .container.process {
     background-color: var(--neutral-darkblue);
     border-radius: 25px;
-
-    clip-path: polygon(
-        0 0,
-        100% 0,
-        100% calc(100% - 40px),
-        0 100%
-    );
 }
 
 .container.contact {
