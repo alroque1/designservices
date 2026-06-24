@@ -446,7 +446,16 @@ h3 {
   );
 }
 
-.works-card
+.container.process {
+    min-height: 400px;
+    background-color: var(--secondary-blue);
+}
+
+.container.pcontact {
+    min-height: 400px;
+    background-color: var(--neutral-skyblue);
+    border-radius: 25px 0;
+}
 
 /* ==================================================
                     FOOTER CONTENT SECTIONS
