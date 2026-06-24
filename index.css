@@ -483,11 +483,28 @@ h3 {
         100% calc(100% - 40px),
         0 100%
     );
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    color: white;
+    padding: 50px;
 }
 
     .works h3 {
         padding: 50px 0 20px 0;
     }
+
+
+.container.works {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 20px 0;
+}
+
+
 
 .container.process {
     background-color: var(--neutral-darkblue);
