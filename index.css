@@ -555,7 +555,7 @@ footer {
 /* The Social Links */
 .footer-right a {
     display: inline-block;
-    color: var(--neutral-black);
+    color: var(--neutral-white);
     text-decoration: none;
     font-size: 1rem;
     letter-spacing: 1px;
