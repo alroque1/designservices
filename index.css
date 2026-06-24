@@ -466,11 +466,16 @@ h3 {
         #00192B 100%
     );
     border-radius: 25px 90px 0 0;
+    display: grid;
+    grid-template-rows: 1px 1px;
 }
 
 .works-card {
+    flex: 0 0 300px;
+    scroll-snap-align: start;
+
     background: linear-gradient(
-    180deg,
+        180deg,
         #00192B 0%,
         #005491 37%,
         #005491 64%,
@@ -484,8 +489,7 @@ h3 {
         0 100%
     );
 
-    gap: 20px;
-    color: var(--neutral-white);
+    color: white;
     padding: 50px;
 }
 
