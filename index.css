@@ -410,7 +410,7 @@ h2 {
 
 h3 {
     font-family: var(--font-subheader);
-    color: var(--primary-blue);
+    color: var(--neutral-white);
     font-size: 30px;
     text-align: left;
     padding: 20px;
@@ -445,6 +445,8 @@ h3 {
         #00192B 100%
   );
 }
+
+.works-card
 
 /* ==================================================
                     FOOTER CONTENT SECTIONS
