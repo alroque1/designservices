@@ -435,12 +435,13 @@ h3 {
 
 /*----------container works----------*/
 .container.works {
-  background: linear-gradient(
+    min-height: 300px;
+    background: linear-gradient(
     90deg,
-    #00192B 0%,
-    #005491 37%,
-    #005491 64%,
-    #00192B 100%
+        #00192B 0%,
+        #005491 37%,
+        #005491 64%,
+        #00192B 100%
   );
 }
 
