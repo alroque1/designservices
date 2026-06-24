@@ -487,16 +487,10 @@ h3 {
     gap: 20px;
     align-items: center;
     scroll-snap-align: start;
-    background: linear-gradient(
-        180deg,
-        #00192B 0%,
-        #005491 37%,
-        #005491 64%,
-        #00192B 100%
-    );
+    background-color:var(--neutral-skyblue);
 
     border-radius: 25px 90px 25px 25px;
-    color: white;
+    color: var(--neutral-darkblue);
     padding: 30px;
 }
 
