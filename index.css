@@ -385,7 +385,7 @@ a.button.empty span {
 }
 
 
-/*----------hero class----------*/
+/*----------h1, h2, h3, p----------*/
 
 h2 {
     font-family: var(--font-body);
@@ -407,7 +407,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-/*----------container class----------*/
+
 h3 {
     font-family: var(--font-subheader);
     color: var(--primary-blue);
@@ -431,6 +431,17 @@ h3 {
     align-items: center;
     display: inline-block;
     padding-bottom: 15px;
+}
+
+/*----------container works----------*/
+.container.works {
+  background: linear-gradient(
+    90deg,
+    #00192B 0%,
+    #005491 37%,
+    #005491 64%,
+    #00192B 100%
+  );
 }
 
 /* ==================================================
