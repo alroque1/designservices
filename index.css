@@ -510,6 +510,14 @@ h3 {
     padding: 20px 0;
 }
 
+.container.works {
+    scrollbar-width: none; /* Firefox */
+}
+
+.container.works::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
 
 
 .container.process {
