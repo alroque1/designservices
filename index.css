@@ -416,9 +416,12 @@ h3 {
 }
 
 .contact h1 {
-     text-align: center;
-     color: var(--primary-orange);
-     font-size: 36px;
+    text-align: center;
+    color: var(--primary-orange);
+    font-size: 36px;
+    font-family: var(--font-subheader);
+    font-weight: normal;
+    margin: 0;
 }
 
 .contact h2 {
@@ -427,6 +430,7 @@ h3 {
     font-size: 20px;
     align-items: center;
     display: inline-block;
+    padding-bottom: 15px;
 }
 
 /* ==================================================
