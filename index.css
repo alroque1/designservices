@@ -413,6 +413,7 @@ h3 {
     color: var(--primary-blue);
     font-size: 30px;
     text-align: left;
+    padding: 20px;
 }
 
 .contact h1 {
@@ -435,9 +436,9 @@ h3 {
 
 /*----------container works----------*/
 .container.works {
-    min-height: 300px;
+    min-height: 400px;
     background: linear-gradient(
-    90deg,
+    180deg,
         #00192B 0%,
         #005491 37%,
         #005491 64%,
