@@ -456,7 +456,7 @@ h3 {
 /*----------container hero----------*/
 
 .container.hero {
-    background-color: var(--neutral-white);
+    background-color: transparent;
     padding-bottom: 20px;
 }
 
