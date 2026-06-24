@@ -559,7 +559,7 @@ h3 {
 
 /* The Base Footer Background */
 footer {
-    background-color: var(--primary-blue);
+    background-color: var(--neutral-darkblue);
     padding: 1rem 0;
     border-radius: 0 0 25px 25px;
 }
@@ -591,7 +591,7 @@ footer {
 .footer-right {
     text-align: center;
     font-family: var(--font-header);
-    color: var(--primary-blue);
+    color: var(--neutral-darkblue);
     display: flex;
     flex-direction: column;
     gap: 1.5rem; 
