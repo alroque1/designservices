@@ -153,8 +153,7 @@ body {
     color: var(--neutral-black);
     background: linear-gradient(
         180deg,
-        #FFFFFF 0%,
-        #005491 70%
+        #FFFFFF 40%,
         #00192B 100%
     );
     border-radius: 20px;
