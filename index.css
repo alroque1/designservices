@@ -492,7 +492,7 @@ h3 {
         backdrop-filter: blur(10px);
         border-radius: 25px 90px 25px 25px;
         color: var(--neutral-white);
-        padding: 35px 15px;
+        padding: 30px 20px;
 }
 
 .works-card h4, .works-card p {
@@ -515,11 +515,11 @@ h3 {
     gap: 20px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .works-scroll::-webkit-scrollbar {
-    height: 6px;
+    height: 10px;
 }
 
 .works-scroll::-webkit-scrollbar-track {
