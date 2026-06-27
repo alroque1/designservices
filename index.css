@@ -596,7 +596,8 @@ h3 {
 
 .process p {
     font-size: 12px;
-    color: var(--primary-blue)
+    color: var(--primary-blue);
+    font-weight: 700;
 }
 
 /*----------container contact----------*/
