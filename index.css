@@ -141,8 +141,9 @@ html {
     padding-right: 20px;                /*----------NOTE: REMOVE if it messes with any spacing in the page----------*/
     background: linear-gradient(
     180deg,
-        #FFFFFF 30%,
-        #00192B 70%
+        #D9EFFF 0%,
+        #005491 70%,
+        #D9EFFF 100%
   );
 }
 
@@ -150,7 +151,11 @@ body {
     text-align: center;
     font-family: var(--font-body);
     color: var(--neutral-black);
-    
+    background: linear-gradient(
+        180deg,
+        #FFFFFF 30%,
+        #00192B 60%
+    );
     border-radius: 20px;
     margin: 20px auto;
     .container {
