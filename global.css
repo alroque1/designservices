@@ -426,7 +426,7 @@ h3 {
     color: var(--neutral-white);
     font-size: 30px;
     text-align: left;
-    padding: 15px;
+    padding: 15px 0;
 }
 
 
