@@ -591,6 +591,7 @@ h3 {
 .process h4 {
     font-size: 14px;
     color: var(--secondary-blue);
+    font-weight: 700;
 }
 
 .process p {
