@@ -461,17 +461,21 @@ h3 {
     padding-bottom: 20px;
 }
 
+/*----------body-box----------*/
 
-/*----------container works----------*/
-
-.container.works {
-    background: linear-gradient(
+.body-box {
+background: linear-gradient(
         180deg,
         #00192B 0%,
         #005491 37%,
         #005491 64%,
         #00192B 100%
     );
+}
+
+/*----------container works----------*/
+
+.container.works {
 
     border-radius: 25px 90px 0 0;
     padding: 20px;
