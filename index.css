@@ -560,6 +560,7 @@ h3 {
 .process-card {
     background-color: var(--neutral-white);
     border-radius: 15px 25px;
+    padding: 25px 7px;
 }
 .process h3 {
     grid-column: 1 / -1;
