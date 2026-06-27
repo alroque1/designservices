@@ -550,15 +550,16 @@ h3 {
     background-position: center;
     border-radius: 25px;
     padding: 30px 20px;
-}
-
-.process-card {
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 6px;
     width: 120px;
     height: 120px;
+}
+
+.process-card {
     background-color: var(--neutral-white);
     border-radius: 15px 25px;
 }
