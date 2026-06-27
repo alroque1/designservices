@@ -515,7 +515,7 @@ h3 {
     gap: 20px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .works-scroll::-webkit-scrollbar {
