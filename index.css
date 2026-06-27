@@ -561,8 +561,8 @@ h3 {
     background-color: var(--neutral-white);
     border-radius: 15px 25px;
 }
-.container-process h3 {
-    grid-column: 1/-1;
+.process h3 {
+    grid-column: 1 / -1;
 }
 
 .process-card-img-1 {
