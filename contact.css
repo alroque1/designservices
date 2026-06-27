@@ -1,0 +1,38 @@
+/* ==================================================
+                    ROOT VARIABLES
+================================================== */
+
+:root {
+
+/*----------COLOR----------*/
+--primary-blue: #005491;
+--primary-orange: #D33F00;
+--secondary-blue: #020A33;
+--secondary-orange: #CF7B31;
+--neutral-white: #FFFFFF;
+--neutral-skyblue: #D9EFFF;
+--neutral-darkblue: #00192B;
+--neutral-black: #040000;
+
+
+/*----------FONTS----------*/
+    /* Title, main header - Cherry Blossoms regular */
+  --font-header: "cherry-blossoms-regular", sans-serif;
+  
+  /* Sub-headers - Sirenia regular */
+  --font-subheader: "sirenia", sans-serif;
+  
+  /* body, p, nav - Quicksand regular */
+  --font-body: "quicksand", sans-serif;
+
+}
+
+
+/*----------container project----------*/
+
+.project h2 {
+    margin-bottom: 15px;
+}
+
+
+/*----------container form----------*/
