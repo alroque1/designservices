@@ -544,7 +544,10 @@ h3 {
 /*----------container process----------*/
 
 .container.process {
-    background-image: ;
+    background-image: url(images/gradient-background.avif);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
     border-radius: 25px;
 }
 
