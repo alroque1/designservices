@@ -57,12 +57,12 @@ form#contact-form {
     height: 525px;
 }
 
-input#name, input#email, input#message{
+input#name, input#email{
     width: 100%;
     padding: 15px 20px;
     font-size: 16px;
     border-radius: 8px;
-    border-color: var(--neutral-darkblue);
+    border-color: var(--primary-orange);
     box-sizing: border-box;
     font-family: var(--font-body);
 }
@@ -88,10 +88,10 @@ input#name, input#email, input#message{
     border-radius: 8px;
     box-sizing: border-box;
     font-family: var(--font-body);
-    border-color: var(--neutral-darkblue);
+    border-color: var(--primary-orange);
 }
 
-.field input:focus,
+.field input#name:focus, .field input#email:focus,
 .field textarea:focus {
     outline: none;
     border: 2px solid #ff7a00; /* your accent color */
