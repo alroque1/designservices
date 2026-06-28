@@ -81,4 +81,5 @@ input#name, input#email, input#message{
     resize: vertical; /* allows the user to make it taller */
     border-radius: 8px;
     box-sizing: border-box;
+    font-family: var(--font-body);
 }
