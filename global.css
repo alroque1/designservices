@@ -507,6 +507,7 @@ footer {
 .footer-right a {
     display: inline-block;
     text-decoration: none;
+    color: var(--primary-blue);
     font-size: 1rem;
     letter-spacing: 1px;
     margin: 7px 10px 7px auto;
