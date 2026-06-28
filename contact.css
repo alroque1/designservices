@@ -86,7 +86,7 @@ input#name, input#email{
     padding: 15px 20px;
     font-size: 16px;
     resize: vertical;
-    border-radius: 9px;
+    border-radius: 8px;
     box-sizing: border-box;
     font-family: var(--font-body);
     border-color: var(--primary-orange);
