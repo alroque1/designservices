@@ -58,8 +58,8 @@ input#name, input#email, input#message{
     height: 25px;
 }
 
-label {
-    color: var(--neutral-white);
+.field.placeholder {
+    color:#005491;
 }
 
 .field {
