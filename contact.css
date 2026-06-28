@@ -62,6 +62,7 @@ input#name, input#email, input#message{
     padding: 15px 20px;
     font-size: 16px;
     border-radius: 8px;
+    border-color: var(--neutral-darkblue);
     box-sizing: border-box;
     font-family: var(--font-body);
 }
@@ -87,4 +88,5 @@ input#name, input#email, input#message{
     border-radius: 8px;
     box-sizing: border-box;
     font-family: var(--font-body);
+    border-color: var(--neutral-darkblue);
 }
