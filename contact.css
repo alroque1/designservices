@@ -49,6 +49,10 @@
     border-radius: 25px;
 }
 
+.container.form h3 {
+    padding: 30px 5px 0 5px;
+}
+
 form#contact-form {
     height: 525px;
 }
