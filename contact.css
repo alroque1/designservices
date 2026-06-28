@@ -90,3 +90,10 @@ input#name, input#email, input#message{
     font-family: var(--font-body);
     border-color: var(--neutral-darkblue);
 }
+
+.field input:focus,
+.field textarea:focus {
+    outline: none;
+    border: 2px solid #ff7a00; /* your accent color */
+    box-shadow: 0 0 5px rgba(255, 122, 0, 0.3);
+}
