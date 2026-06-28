@@ -115,20 +115,6 @@ h2, h4, h5, h6 {
     font-family: var(--font-body);
     line-height: 1.2;
     margin: 0;                          /*----------NOTE: REMOVE if it messes with any spacing in the page----------*/
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeUp 0.8s ease-out forwards;
-}
-
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 h3 {
@@ -159,7 +145,22 @@ html {
         #005491 70%,
         #D9EFFF 100%
   );
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease-out forwards;
 }
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 body {
     text-align: center;
