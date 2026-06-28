@@ -516,7 +516,7 @@ footer {
 }
 
 .footer-right a:hover {
-    border-bottom-color: 2px solid var(--primary-orange);
+    border-bottom-color: 2px solid var(--primary-blue);
     transform: scale(1.05);
 }
 
