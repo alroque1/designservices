@@ -36,3 +36,12 @@
 
 
 /*----------container form----------*/
+
+.container.form {
+    background: linear-gradient(
+        180deg,
+        #005491 30%,
+        #00192B 70%
+    );
+    border-radius: 25px;
+}
