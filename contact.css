@@ -63,6 +63,7 @@ input#name, input#email{
     font-size: 16px;
     border-radius: 8px;
     border-color: var(--primary-orange);
+    border: 2px solid #D33F00;
     box-sizing: border-box;
     font-family: var(--font-body);
 }
@@ -84,11 +85,12 @@ input#name, input#email{
     min-height: 150px;
     padding: 15px 20px;
     font-size: 16px;
-    resize: vertical; /* allows the user to make it taller */
+    resize: vertical;
     border-radius: 9px;
     box-sizing: border-box;
     font-family: var(--font-body);
     border-color: var(--primary-orange);
+    border: 2px solid #D33F00;
 }
 
 .field input#name:focus, .field input#email:focus,
