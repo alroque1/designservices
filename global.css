@@ -506,7 +506,6 @@ footer {
 /* The Social Links */
 .footer-right a {
     display: inline-block;
-    color: var(--neutral-white);
     text-decoration: none;
     font-size: 1rem;
     letter-spacing: 1px;
@@ -517,7 +516,7 @@ footer {
 }
 
 .footer-right a:hover {
-    border-bottom-color: 2px solid var(--neutral-white);
+    border-bottom-color: 2px solid var(--primary-orange);
     transform: scale(1.05);
 }
 
