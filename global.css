@@ -174,8 +174,8 @@ body {
     background: linear-gradient(
         180deg,
         #FFFFFF 30%,
-        #D9EFFF 40%,
-        #FFFFFF 60%
+        #D9EFFF 50%,
+        #FFFFFF 80%
     );
     border-radius: 20px;
     margin: 20px auto;
