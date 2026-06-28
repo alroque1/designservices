@@ -99,3 +99,10 @@ input#name, input#email{
     border: 2px solid #ff7a00; /* your accent color */
     box-shadow: 0 0 5px rgba(255, 122, 0, 0.3);
 }
+
+.field input#name:hover, .field input#email:hover,
+.field textarea:hover {
+    outline: none;
+    border: 2px solid #ff7a00; /* your accent color */
+    box-shadow: 0 0 5px rgba(255, 122, 0, 0.3);
+}
