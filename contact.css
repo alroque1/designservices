@@ -60,6 +60,9 @@ label {
 }
 
 .field {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.contact.button {
+    padding-top: 10px;
 }
