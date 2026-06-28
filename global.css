@@ -507,11 +507,10 @@ footer {
 .footer-right a {
     display: inline-block;
     text-decoration: none;
-    color: var(--neutral-white);
     font-size: 1rem;
     letter-spacing: 1px;
     margin: 7px 10px 7px auto;
-    border-bottom: 1.5px solid var(--neutral-darkblue);
+    border-bottom: 1.5px solid var(--neutral-white);
     width: fit-content;
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
