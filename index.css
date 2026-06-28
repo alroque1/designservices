@@ -180,6 +180,12 @@
     font-weight: 700;
 }
 
+.process-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+
 /*----------container contact----------*/
 
 .container.contact {
