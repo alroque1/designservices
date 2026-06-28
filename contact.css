@@ -58,3 +58,8 @@ input#name, input#email, input#message{
 label {
     color: var(--neutral-white);
 }
+
+.field {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
