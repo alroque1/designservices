@@ -67,11 +67,11 @@ input#name, input#email, input#message{
 }
 
 .field {
-    padding-bottom: 15px;
+    padding-bottom: 10x;
 }
 
 .contact.button {
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .field textarea {
