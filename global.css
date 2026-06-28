@@ -543,6 +543,15 @@ footer {
         flex: 1 1 100%;
     }
 
+    .container.hero {
+        background-color: transparent;
+        padding-bottom: 20px;
+        justify-self: left;
+        text-align: left;
+        width: 500px;
+        margin: 0 25px;
+    }
+
     .booking-form button {
         width: 100%;
         max-width: 200px;
