@@ -67,6 +67,7 @@
         border-radius: 25px 90px 25px 25px;
         color: var(--neutral-white);
         padding: 30px 20px;
+        margin: 10px;
 }
 
 .works-card h4, .works-card p {
