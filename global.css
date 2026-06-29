@@ -80,8 +80,6 @@ table {
 --secondary-orange: #CF7B31;
 --neutral-white: #FFFFFF;
 --neutral-skyblue: #D9EFFF;
---neutral-darkblue: #00192B;
---neutral-black: #040000;
 
 
 /*----------FONTS----------*/
@@ -490,7 +488,7 @@ footer {
 .footer-right {
     text-align: center;
     font-family: var(--font-header);
-    color: var(--neutral-darkblue);
+    color: var(--secondary-blue);
     display: flex;
     flex-direction: column;
     gap: 1.5rem; 
