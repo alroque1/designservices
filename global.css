@@ -640,7 +640,6 @@ footer {
 }
 
 .dropdown-nav {
-    display: flex !important;
     position: static;
     flex-direction: row;
     background: none;
