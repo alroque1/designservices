@@ -545,7 +545,6 @@ footer {
         padding-bottom: 20px;
         justify-self: left;
         text-align: left;
-        width: 500px;
         margin: 0 25px;
     }
 
@@ -586,6 +585,7 @@ footer {
         margin: 0 auto;
         grid-template-columns: repeat(3, 1fr);
     }
+
 
 
     }
@@ -646,7 +646,4 @@ footer {
     background: none;
     width: auto;
 }
-}
-
-
 }
