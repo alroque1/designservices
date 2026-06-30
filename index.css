@@ -128,7 +128,6 @@
 .container.process {
     background-image: url(images/gradient-background.avif);
     background-size: cover;
-    background-repeat: none;
     background-position: center;
     border-radius: 25px;
     padding: 30px 20px;
