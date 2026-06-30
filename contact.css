@@ -71,6 +71,7 @@ input#name, input#email{
 }
 
 .field {
+    padding-top: 20px;
     padding-bottom: 10x;
 }
 
