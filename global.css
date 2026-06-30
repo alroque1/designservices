@@ -586,9 +586,17 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .body-box {
+        border-radius: 25px 90px 25px 25px;
+    }
+
     .container.process {
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
+    }
+
+    .container.contact {
+        border-radius: 25px;
     }
 
     }
