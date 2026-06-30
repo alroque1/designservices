@@ -603,6 +603,10 @@ footer {
         max-width: 600px;
     }
 
+    .container.project {
+        max-width: 600px;
+    }
+
     }
 
 }
