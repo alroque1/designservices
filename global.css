@@ -580,7 +580,7 @@ footer {
     }
 
     main {
-        max-width: 900px;
+        max-width: 1600px;
         width: 100%;
         margin: 0 auto;
         grid-template-columns: repeat(3, 1fr);
