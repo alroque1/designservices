@@ -671,4 +671,11 @@ footer {
     display: none;
 }
 
+.dropdown-nav {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    background: none;
+    width: auto;
+}
 }
