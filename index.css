@@ -33,6 +33,10 @@
     padding-bottom: 20px;
 }
 
+.hero.profile-image {
+    display: none;
+}
+
 /*----------body-box----------*/
 
 .body-box {
