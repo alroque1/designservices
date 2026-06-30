@@ -228,13 +228,14 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto;
-        gap: 20px;
         align-items: center;
     }
 
         .name-and-icon {
             grid-column: 1 / 3;
             grid-row: 1;
+            padding: 0;
+            justify-content: left;
         }
 
         .label-and-button {
