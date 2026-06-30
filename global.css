@@ -607,6 +607,10 @@ footer {
         max-width: 600px;
     }
 
+    a.button {
+        margin: 0 40px;
+    }
+
     }
 
 }
