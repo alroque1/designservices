@@ -176,7 +176,9 @@ body {
     );
     border-radius: 20px;
     margin: 20px auto;
-    .container {
+}
+
+.container {
     margin: 0 auto;
     line-height: 1.5;
 }
@@ -651,5 +653,4 @@ footer {
         width: auto;
     }
 
-}
 }
