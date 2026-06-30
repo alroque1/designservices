@@ -597,9 +597,6 @@ footer {
 
     .container.contact {
         border-radius: 25px;
-        justify-self: left;
-        text-align: left;
-        margin: 0 50px;
     }
 
     .container.form {
