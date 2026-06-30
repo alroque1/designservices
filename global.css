@@ -595,6 +595,11 @@ footer {
         gap: 20px;
     }
 
+        .process-card {
+            width: 250px;
+            text-align: center;
+        }
+
     .container.contact {
         border-radius: 25px;
     }
