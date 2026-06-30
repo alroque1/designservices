@@ -360,6 +360,7 @@ label span:after {
 .name-and-icon {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -583,7 +584,6 @@ footer {
         margin: 0 auto;
         grid-template-columns: repeat(3, 1fr);
     }
-
 
     .dropdown-nav {
         display: flex !important;
