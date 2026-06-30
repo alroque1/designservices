@@ -104,3 +104,23 @@ input#name, input#email{
     border: 2px solid #ff7a00; /* your accent color */
     box-shadow: 0 0 5px rgba(255, 122, 0, 0.3);
 }
+
+
+
+/* ==================================================
+                    MEDIA QUERIES
+================================================== */
+
+
+/* ----------MEDIA QUERIES (MEDIUM)---------- */
+@media screen and (min-width: 600px) {
+    /* FOOTER FLEX FOR TABLET/DESKTOP */
+
+        .container.project {
+        max-width: 600px;
+    }
+
+    .container.form {
+        max-width: 600px;
+    }
+}
