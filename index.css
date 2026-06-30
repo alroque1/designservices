@@ -224,7 +224,12 @@
 @media screen and (min-width: 600px) {
     /* FOOTER FLEX FOR TABLET/DESKTOP */
 
-.body-box {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .body-box {
         border-radius: 25px 90px 25px 25px;
     }
 
