@@ -33,7 +33,7 @@
     padding-bottom: 20px;
 }
 
-.hero.profile-image {
+.profile-image {
     display: none;
 }
 
@@ -213,4 +213,32 @@
     align-items: center;
     display: inline-block;
     padding: 0 55px 15px;
+}
+
+/* ==================================================
+                    MEDIA QUERIES
+================================================== */
+
+
+/* ----------MEDIA QUERIES (MEDIUM)---------- */
+@media screen and (min-width: 600px) {
+    /* FOOTER FLEX FOR TABLET/DESKTOP */
+
+.body-box {
+        border-radius: 25px 90px 25px 25px;
+    }
+
+    .container.process {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+        .process-card {
+            width: 250px;
+            text-align: center;
+        }
+
+    .container.contact {
+        border-radius: 25px;
+    }
 }
