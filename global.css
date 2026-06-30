@@ -599,6 +599,10 @@ footer {
         border-radius: 25px;
     }
 
+    .container.form {
+        max-width: 600px;
+    }
+
     }
 
 }
