@@ -584,10 +584,6 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    a.button {
-        margin: 0 40px;
-    }
-
 
     .dropdown-nav {
         display: flex !important;
