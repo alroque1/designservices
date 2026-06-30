@@ -611,6 +611,15 @@ footer {
         margin: 0 40px;
     }
 
+
+
+    .dropdown-nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+        width: auto;
+    }
     }
 
 }
@@ -662,11 +671,4 @@ footer {
     display: none;
 }
 
-.dropdown-nav {
-    display: flex !important;
-    position: static;
-    flex-direction: row;
-    background: none;
-    width: auto;
-}
 }
