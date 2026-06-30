@@ -620,7 +620,7 @@ footer {
         background: none;
         width: auto;
     }
-    }
+
 
 }
 
@@ -677,6 +677,5 @@ footer {
     flex-direction: row;
     background: none;
     width: auto;
-    display: none;
 }
 }
