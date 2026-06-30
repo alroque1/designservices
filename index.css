@@ -247,8 +247,7 @@
             grid-column: 3;
             grid-row: 1 / 4;
             justify-self: center;
-            align-self: center;
-            display:grid;
+            display: grid;
         }
 
     .body-box {
