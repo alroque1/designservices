@@ -252,6 +252,15 @@
 
     .body-box {
         border-radius: 25px 90px 25px 25px;
+        .body-box {
+        background: linear-gradient(
+            180deg,
+            #00192B 0%,
+            #005491 37%,
+            #005491 64%,
+            #00192B 100%
+        );
+}
     }
 
     .container.process {
